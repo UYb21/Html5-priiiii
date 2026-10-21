@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tiêu đề trang (Tránh lỗi thiếu thẻ title) -->
+    <title>Trang Web Mẫu Bài Tập HTML5</title>
+</head>
+<body>
+
+    <!-- Thẻ ngữ nghĩa 1: <header> -->
+    <header>
+        <!-- Tiêu đề cấp 1 (h1) -->
+        <h1>Chào Mừng Đến Với Trang Web Cá Nhân</h1>
+    </header>
+
+    <!-- Thẻ ngữ nghĩa 2: <main> -->
+    <main>
+        <!-- Tiêu đề cấp 2 (h2) - Giữ đúng thứ tự cấp bậc tiêu đề h1 -> h2 (Tránh lỗi nhảy cấp tiêu đề h1 -> h3) -->
+        <h2>Danh Sách Sở Thích Của Tôi</h2>
+
+        <!-- Danh sách chứa ít nhất 3 mục -->
+        <ul>
+            <li>Lập trình web</li>
+            <li>Đọc sách công nghệ</li>
+            <li>Chụp ảnh thiên nhiên</li>
+        </ul>
+
+        <h2>Bộ Bộ Ảnh Thiên Nhiên</h2>
+        
+        <!-- Chứa ít nhất 3 hình ảnh, tất cả đều có thuộc tính alt rõ ràng, mô tả chi tiết -->
+        <div>
+            <img src="https://picsum.photos/id/10/300/200" alt="Cảnh bình minh trên cánh đồng xanh ngát">
+            <img src="https://picsum.photos/id/11/300/200" alt="Dòng sông nhỏ chảy qua ngọn núi phủ tuyết">
+            <img src="https://picsum.photos/id/12/300/200" alt="Bãi biển hoàng hôn với những con sóng nhẹ">
+        </div>
+
+        <h2>Liên Kết Tham Khảo</h2>
+        <!-- Thẻ ngữ nghĩa 3: <article> hoặc <footer> (Ở đây dùng <article> bao quanh nội dung) -->
+        <article>
+            <p>
+                Để tìm hiểu thêm về chuẩn HTML5, bạn có thể truy cập trang tài liệu chính thức tại 
+                <!-- Liên kết hợp lệ đến nguồn bên ngoài -->
+                <a href="https://developer.mozilla.org/vi/docs/Web/HTML" target="_blank" rel="noopener noreferrer">
+                    MDN Web Docs về HTML
+                </a>.
+            </p>
+        </article>
+    </main>
+
+    <!-- Thẻ ngữ nghĩa 4: <footer> -->
+    <footer>
+        <p>&copy; 2026 Bản quyền thuộc về Bạn.</p>
+    </footer>
+
+</body>
+</html>
